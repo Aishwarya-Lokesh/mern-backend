@@ -13,7 +13,10 @@ connectDB();
 const app = express();
 
 // Middlewares
-app.use(cors());
+app.use(cors({
+  origin: "https://69a988223d3c7c517138fca9--gleaming-kelpie-529489.netlify.app",
+  credentials: true
+}));
 app.use(express.json());
 app.use('/uploads', express.static('uploads'));
 
