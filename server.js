@@ -18,7 +18,7 @@ app.use('/uploads', express.static('uploads'));
 
 // ✅ CORS configuration for frontend (Netlify + local testing)
 const allowedOrigins = [
-  'https://69a988223d3c7c517138fca9--gleaming-kelpie-529489.netlify.app', // Netlify
+  'https://delightful-queijadas-6b2717.netlify.app', // Netlify
   'http://localhost:3000' // Local frontend testing
 ];
 app.use(cors({
